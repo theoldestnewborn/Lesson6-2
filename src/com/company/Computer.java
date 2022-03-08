@@ -16,7 +16,7 @@ public class Computer {
 
     }
 
-    void getInfoComputer1 () {
+    void getInfoComputer1() {
         System.out.println("Price - " + price + "\nModel - " + model);
         ram1.getInfoRam();
         drive1.getInfoDrive();
@@ -28,11 +28,10 @@ public class Computer {
         this.ram = ram;
         this.drive = drive;
     }
-    void getInfoComputer2 () {
+
+    void getInfoComputer2() {
         System.out.println("\nPrice - " + price + "\nModel - " + model + "\nRAM - " + ram + "\nHDD - " + drive);
     }
-
-
 
 
 }

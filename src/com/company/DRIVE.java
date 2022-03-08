@@ -1,6 +1,6 @@
 package com.company;
 
-public class DRIVE{
+public class DRIVE {
 
     String nameDrive;
     int volumeDrive;
@@ -12,7 +12,7 @@ public class DRIVE{
         this.typeDrive = typeDrive;
     }
 
-    void getInfoDrive (){
+    void getInfoDrive() {
         System.out.println("Drive name - " + nameDrive + "\nVolume - " + volumeDrive + "\nType - " + typeDrive);
     }
 

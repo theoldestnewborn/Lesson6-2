@@ -4,7 +4,7 @@ public class RAM {
     String nameRam;
     int memoryVolume;
 
-    public RAM (String nameRam, int memoryVolume) {
+    public RAM(String nameRam, int memoryVolume) {
         this.memoryVolume = memoryVolume;
         this.nameRam = nameRam;
     }
