@@ -19,6 +19,7 @@ public class Computer {
     void getInfoComputer1 () {
         System.out.println("Price - " + price + "\nModel - " + model);
         ram1.getInfoRam();
+        drive1.getInfoDrive();
     }
 
     public Computer(int price, String model, int ram, int drive) {

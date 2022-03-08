@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         Computer pc1 = new Computer(500,"MegaPC-lite");
-
         pc1.getInfoComputer1();
 
 

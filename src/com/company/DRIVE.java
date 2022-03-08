@@ -12,8 +12,8 @@ public class DRIVE{
         this.typeDrive = typeDrive;
     }
 
-    void getInfoHdd (){
-        System.out.println("Hdd name - " + nameDrive + "\nVolume - " + volumeDrive + "\nType - " + typeDrive);
+    void getInfoDrive (){
+        System.out.println("Drive name - " + nameDrive + "\nVolume - " + volumeDrive + "\nType - " + typeDrive);
     }
 
 }
